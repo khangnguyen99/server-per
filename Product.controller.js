@@ -1,5 +1,11 @@
 const mongoose = require("mongoose")
 const Product = require("../models/Product")
+/*
+* @desc Get all products
+* @route GET /api/product
+* @access Public
+*/
+
 
 const getAllProducts = async (req, res) => {
 	try {
